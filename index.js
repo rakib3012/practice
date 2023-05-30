@@ -81,4 +81,7 @@ elementImage.src = milestonesData[id].image;
 const elementImage = document.querySelector(".milestoneImage");
 elementImage.onload = function loadimage(){
   this.style.opacity = "1";
+  console.log('this is so easy');
 }
+
+
